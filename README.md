@@ -1,23 +1,34 @@
-# ✨ Full Stack Realtime Chat App ✨
+# ChatPulse
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+## Highlights:
+- 🚀 **Tech stack:** MERN + Socket.io + TailwindCSS + Daisy UI
+- 🍩 **Authentication & Authorization** with JWT
+- 🦄 **Real-time messaging** with Socket.io
+- 🌐 **Online user status**
+- ✌️ **Global state management** with Zustand
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+---
+## ## Getting Started
 
-Highlights:
+To set up the project locally, follow these steps:
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+### Clone the Repository
+1. Open your terminal and navigate to the directory where you want to clone the project.
+2. Run the following command to clone the repository:
+   ```bash
+   git clone <repository-url>
+  
 
-### Setup .env file
+Or
+### Download as a ZIP File
+1. Click on the green Code button in the repository.
+2. Select Download ZIP.
+3. Extract the downloaded ZIP file to your desired directory.
+4. Open the terminal and navigate to the extracted folder
+---
+## Setup `.env` file
 
-```js
+```env
 MONGODB_URI=...
 PORT=5001
 JWT_SECRET=...
@@ -28,15 +39,17 @@ CLOUDINARY_API_SECRET=...
 
 NODE_ENV=development
 ```
+---
 
-### Build the app
-
-```shell
-npm run build
+## Build the app
 ```
+npm run build
 
-### Start the app
+```
+---
 
-```shell
-npm start
+## Start the app
+```
+npm run start
+
 ```
